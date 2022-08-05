@@ -1,2 +1,4 @@
 VIDIA RESOLUSI
--
+- Satu
+- Dua
+- Tiga
