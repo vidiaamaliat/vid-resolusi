@@ -1,2 +1,268 @@
-# vid-resolusi
-Repositori untuk menyimpan rencana Vidia kedepannya
+# bootstrap-3
+<!doctype html>
+<html lang="en" id="#home">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Portfolio</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style2.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#home">Vidia Amalia Tunnisa</a>
+          </div>
+      
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#about">About<span class="sr-only">(current)</span></a></li>
+              <li class="dropdown">
+                <a href="#portfolio" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Portfolio<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Portfolio 1</a></li>
+                  <li><a href="#">Portfolio 2</a></li>
+                  <li><a href="#">Portfolio 3</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Portfolio 4</a></li>
+                  <li><a href="#">Portfolio 5</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Portfolio 6</a></li>
+                </ul>
+              </li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+            <form class="navbar-form navbar-left">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+              </div>
+              <button type="submit" class="btn btn-default">Search</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                <a href="#sosmed" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Social Media<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="https://www.youtube.com/channel/UCqRAptrqVEqHZoKw1DD7B8A/about" target="_blank">YouTube</a></li>
+                  <li><a href="https://www.linkedin.com/in/vidiaamaliat/" target="_blank">LinkedIn</a></li>
+                  <li><a href="https://medium.com/@tunnisavidiaamalia" target="_blank">Medium</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="https://instagram.com/vidiamalia_" target="_blank">Instagram</a></li>
+                  <li><a href="https://twitter.com/vidiamalia_" target="_blank">Twitter</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Jumbotron -->
+    <div class="jumbotron text-center">
+        <img class="img-circle" src="img/profile2.png" alt="Foto Profil Vidia Amalia Tunnisa">
+        <h1>Vidia Amalia Tunnisa</h1>
+        <p>Collage Student | Event Manager | Founder <a href="https://instagram.com/seminar.nation" target="_blank">@seminar.nation</a></p>
+    </div>
+    <!-- Akhir Jumbotron -->
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="text-center">About Me</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-5 col-sm-offset-1 text-justify">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad in perspiciatis reprehenderit quibusdam fuga ratione commodi aut <mark>modi, est dignissimos impedit nihil</mark> earum voluptatibus molestiae a excepturi explicabo eos corrupti! Magnam, velit quas. Neque blanditiis reiciendis quod minus laborum!</p>
+                </div>
+                <div class="col-sm-5 text-justify">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad in perspiciatis reprehenderit quibusdam fuga ratione commodi aut <mark>modi, est dignissimos impedit nihil earum voluptatibus molestiae</mark> a excepturi explicabo eos corrupti! Magnam, velit quas. Neque blanditiis reiciendis quod minus laborum!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir About -->
+
+    <!-- Portfolio -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="text-center">My Portfolio</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="#" class="thumbnail">
+                    <img src="img/thumbs/1.png" alt="Portfolio 1">
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="#" class="thumbnail">
+                    <img src="img/thumbs/2.png" alt="Portfolio 2">
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="#" class="thumbnail">
+                    <img src="img/thumbs/3.png" alt="Portfolio 3">
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="#" class="thumbnail">
+                    <img src="img/thumbs/4.png" alt="Portfolio 4">
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="#" class="thumbnail">
+                    <img src="img/thumbs/5.png" alt="Portfolio 5">
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="#" class="thumbnail">
+                    <img src="img/thumbs/6.png" alt="Portfolio 6">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir Portfolio -->
+
+    <!-- Social Media -->
+    <section class="sosmed" id="sosmed">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1>Social Media</h1>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                  <div class="thumbnail">
+                    <img src="https://wallpaperaccess.com/full/2404603.png" alt="Thumbnail Logo YouTube">
+                    <div class="caption">
+                      <h3>My YouTube Channel</h3>
+                      <p></p>
+                      <p><a href="https://www.youtube.com/channel/UCqRAptrqVEqHZoKw1DD7B8A/about" class="btn btn-primary" role="button" target="_blank">See More!</a></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                      <img src="https://www.analyticsinsight.net/wp-content/uploads/2022/02/7-tips-to-use-LinkedIn-data-in-marketing-effectively.jpg" alt="Thumbnail Logo LinkedIn">
+                      <div class="caption">
+                        <h3>My LinkedIn</h3>
+                        <p></p>
+                        <p><a href="https://www.linkedin.com/in/vidiaamaliat/" class="btn btn-primary" role="button" target="_blank">See More!</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="thumbnail">
+                      <img src="https://cdn.mos.cms.futurecdn.net/uazw6gFQuEC29mxMM55Tpb.jpg" alt="Thumbnail Logo Medium">
+                      <div class="caption">
+                        <h3>My Medium</h3>
+                        <p></p>
+                        <p><a href="https://medium.com/@tunnisavidiaamalia" class="btn btn-primary" role="button" target="_blank">See More!</a></p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir Social Media -->
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="text-center">Contact Me</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <form>
+                        <div class="form-group">
+                            <label for="nama">Name</label>
+                            <input type="text" id="nama" class="form-control" placeholder="Input your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" placeholder="Input your Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="hp">Phone Number</label>
+                            <input type="tel" id="hp" class="form-control" placeholder="Input your Phone Number">
+                        </div>
+                        <select class="form-control">
+                            <option>-- Choose Category --</option>
+                            <option>Collage's Friend</option>
+                            <option>Organization/Community's Friend</option>
+                            <option>Others</option>
+                        </select>
+                        <br>
+                        <div class="form-group">
+                            <label for="pesan">Messege</label>
+                            <textarea id="pesan" rows="10" class="form-control" placeholder="Input your Messege"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-success">Send!</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir Contact -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p>&copy; Copyright 2022. Built <i class="glyphicon glyphicon-user"></i> by <a href="https://instagram.com/vidiamalia_" target="_blank">Vidia Amalia Tunnisa</a>.</p>
+                </div>
+            </div>
+            <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                <div class="btn-group" role="group">
+                  <a href="https://www.linkedin.com/in/vidiaamaliat/" target="_blank"><button type="button" class="btn btn-primary"><i class="glyphicon glyphicon-globe"></i> Connect with Me!</button></a>
+                </div>
+                <div class="btn-group" role="group">
+                  <a href="mailto:tunnisavidiaamalia@gmail.com" target="_blank"><button type="button" class="btn btn-info"><i class="glyphicon glyphicon-envelope"></i> Reach Me Out!</button></a>
+                </div>
+              </div>
+        </div>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script2.js"></script>
+  </body>
+</html>
